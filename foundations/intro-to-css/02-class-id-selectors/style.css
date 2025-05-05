@@ -1,6 +1,7 @@
 .odd_num {
     background-color: #fe2c54;
     font-family: Verdana, DejaVu Sans, sans-serif;
+    font-size: 24px;
 }
 
 #blue {
@@ -8,3 +9,8 @@
     font-size: 36px;
 }
 
+#four {
+    color: #2FF924;
+    font-size: 24px;
+    font-weight: bold;
+}
