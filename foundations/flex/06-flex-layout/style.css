@@ -1,26 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
 }
 
 img {
-  width: 600px;
+    width: 600px;
 }
 
 button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
 }
 
 input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+}
+
+/* Changes made to classes to complete lesson */
+
+/* Main content */
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+/* Links */
+a:link {
+    color: oklch(52.8% 0 116.6);
+    text-decoration: none;
+}
+
+.left-links,
+.right-links {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0.8rem;
+}
+
+/* Header and footer */
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin: auto 0;
+}
+
+.footer {
+    margin: auto 0;
+    background: oklch(94.9% 0 21.8);
 }
