@@ -1,7 +1,32 @@
+/* General elements */
 body {
     min-height: 100vh;
 }
 
-.grid-wrapper {
+/* General elements with Flex */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Classes */
+
+/* Flex */
+.lesson-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lesson-flex-box {
+    background: oklch(79.6% 0.1407 61.8);
+}
+
+.wrapper {
     margin: 0 auto;
+    max-width: 1200px;
 }
