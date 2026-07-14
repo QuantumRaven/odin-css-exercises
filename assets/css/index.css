@@ -19,11 +19,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-}
-
-.lesson-flex-box {
-    background: oklch(79.6% 0.1407 61.8);
+    gap: 0.25rem;
+    text-align: center;
+    background: oklch(83.2% 0.2016 124.2);
 }
 
 .wrapper {
